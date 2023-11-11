@@ -9,6 +9,11 @@ from PIL import Image
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
+st.set_page_config(
+    page_title="Molecular Solubility Prediction Web App",
+    page_icon="solubility-logo.jpg",  # You can replace this with the URL of your favicon image
+)
+
 ######################
 # Custom function
 ######################
