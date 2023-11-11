@@ -1,6 +1,11 @@
 import yfinance as yf
 import streamlit as st
 
+st.set_page_config(
+    page_title="Your App Title",
+    page_icon="https://www.quoteinspector.com/media/investing/stock-tracking-screen-wo.jpg",  # You can replace this with the URL of your favicon image
+)
+
 st.write("""
 # Simple Stock Price App
 
