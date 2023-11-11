@@ -116,8 +116,14 @@ prediction[1:] # Skips the dummy first item
 
 st.markdown("""
 <style>
-.css-erpbzb .e1ewe7hr3 .css-1avcm0n .e13qjvis2 .css-cio0dv .e1g8pov61 .css-z3au9t .e1g8pov62{
-    display: none;
+#MainMenu {
+    visibility: hidden;
+}
+footer {
+    visibility: hidden;
+}
+header {
+    visibility: hidden;
 }
 </style>
 """, unsafe_allow_html=True)
