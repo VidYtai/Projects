@@ -14,14 +14,6 @@ st.set_page_config(
     page_icon="solubility-logo.jpg",  # You can replace this with the URL of your favicon image
 )
 
-st.markdown("""
-<style>
-.css-erpbzb .e1ewe7hr3 .css-1avcm0n .e13qjvis2 {
-    display: none;
-}
-</style>
-""", unsafe_allow_html=True)
-
 ######################
 # Custom function
 ######################
@@ -121,3 +113,11 @@ prediction = load_model.predict(X)
 
 st.header('Predicted LogS values')
 prediction[1:] # Skips the dummy first item
+
+st.markdown("""
+<style>
+.css-erpbzb .e1ewe7hr3 .css-1avcm0n .e13qjvis2 .css-cio0dv .e1g8pov61 .css-z3au9t .e1g8pov62{
+    display: none;
+}
+</style>
+""", unsafe_allow_html=True)
