@@ -14,6 +14,14 @@ st.set_page_config(
     page_icon="solubility-logo.jpg",  # You can replace this with the URL of your favicon image
 )
 
+st.markdown("""
+<style>
+header {
+    display: none;
+}
+</style>
+""", unsafe_allow_html=True)
+
 ######################
 # Custom function
 ######################
