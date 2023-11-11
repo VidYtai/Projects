@@ -16,7 +16,7 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-header {
+.css-erpbzb .e1ewe7hr3 .css-1avcm0n .e13qjvis2 {
     display: none;
 }
 </style>
