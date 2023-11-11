@@ -30,3 +30,17 @@ st.write("""
 ## Volume Price
 """)
 st.line_chart(tickerDf.Volume)
+
+st.markdown("""
+<style>
+#MainMenu {
+    visibility: hidden;
+}
+footer {
+    visibility: hidden;
+}
+header {
+    visibility: hidden;
+}
+</style>
+""", unsafe_allow_html=True)
