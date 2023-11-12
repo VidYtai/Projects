@@ -7,9 +7,10 @@ import streamlit as st
 import altair as alt
 from PIL import Image
 
-######################
-# Page Title
-######################
+st.set_page_config(
+    page_title="DNA Nucleotide Count Web App",
+    page_icon="dna-logo.jpg"  # You can replace this with the path to your favicon file
+)
 
 image = Image.open('dna-logo.jpg')
 
