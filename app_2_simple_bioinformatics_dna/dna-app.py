@@ -93,3 +93,16 @@ p = p.properties(
     width=alt.Step(80)  # controls width of bar.
 )
 st.write(p)
+st.markdown("""
+<style>
+#MainMenu {
+    visibility: hidden;
+}
+footer {
+    visibility: hidden;
+}
+header {
+    visibility: hidden;
+}
+</style>
+""", unsafe_allow_html=True)
