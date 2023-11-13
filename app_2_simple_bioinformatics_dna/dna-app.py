@@ -9,10 +9,10 @@ from PIL import Image
 
 st.set_page_config(
     page_title="DNA Nucleotide Count Web App",
-    page_icon="dna-logo.jpg"  # You can replace this with the path to your favicon file
+    page_icon="dna.jpg"  # You can replace this with the path to your favicon file
 )
 
-image = Image.open('dna-logo.jpg')
+image = Image.open('dna.jpg')
 
 st.image(image, use_column_width=True)
 
