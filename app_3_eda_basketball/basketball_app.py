@@ -66,3 +66,5 @@ if st.button('Intercorrelation Heatmap'):
         f, ax = plt.subplots(figsize=(7, 5))
         ax = sns.heatmap(corr, mask=mask, vmax=1, square=True)
     st.pyplot()
+    
+st.set_option('deprecation.showPyplotGlobalUse', False)
