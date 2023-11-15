@@ -5,6 +5,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+st.set_page_config(
+    page_title="NBA Player Stats Explorer",
+    page_icon="https://th.bing.com/th/id/R.764285e1af142963840092657c0ab289?rik=lfhmsH3FhkRktg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fbasketball-hd.jpg&ehk=RI4sZJfaGa6Q%2bI%2by86Gh5DeT4bdblu6jpQyyM5TvPRM%3d&risl=&pid=ImgRaw&r=0"  # You can replace this with the path to your favicon file
+)
+
 st.title('NBA Player Stats Explorer')
 
 st.markdown("""
