@@ -1,8 +1,0 @@
-user_id,timestamp,page_viewed,feature_used,satisfaction_rating
-1,2023-01-01 08:00:00,home_page,search,4.5
-2,2023-01-01 08:05:00,product_page,view_details,3.2
-3,2023-01-01 08:10:00,home_page,search,4.8
-4,2023-01-01 08:15:00,profile_page,edit_profile,4.0
-5,2023-01-01 08:20:00,product_page,add_to_cart,4.2
-6,2023-01-01 08:25:00,checkout_page,complete_purchase,3.7
-7,2023-01-01 08:30:00,home_page,search,4.9
