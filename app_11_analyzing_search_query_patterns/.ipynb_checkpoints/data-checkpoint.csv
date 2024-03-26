@@ -1,8 +1,0 @@
-user_id,timestamp,search_query,search_results,clicked_result
-1,2023-01-01 08:00:00,machine learning,20,3
-2,2023-01-01 08:05:00,data visualization,15,2
-3,2023-01-01 08:10:00,natural language processing,18,1
-4,2023-01-01 08:15:00,deep learning frameworks,25,5
-5,2023-01-01 08:20:00,python programming,22,2
-6,2023-01-01 08:25:00,cloud computing,30,7
-7,2023-01-01 08:30:00,machine learning,20,4
