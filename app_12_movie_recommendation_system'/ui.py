@@ -25,6 +25,7 @@ def fetch_poster(movie_id):
     
 movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
+#get the similarity.pkl from https://drive.google.com/file/d/1E_kSKyyvvaS2WFtfS3Jbtse8lXLGPkaM/view?usp=sharing as it can not be uploaded due to its large size
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 def recommend(movie):
